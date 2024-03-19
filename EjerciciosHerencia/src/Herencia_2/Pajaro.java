@@ -1,8 +1,8 @@
 package Herencia_2;
 
 public class Pajaro extends Animal {
-    String especie;
-    String tamanio;
+    private String especie;
+    private String tamanio;
 
     /*CONSTRUCTORES*/
     public Pajaro() {

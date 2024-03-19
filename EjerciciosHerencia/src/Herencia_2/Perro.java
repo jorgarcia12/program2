@@ -1,8 +1,8 @@
 package Herencia_2;
 
 public class Perro extends Animal {
-    String raza;
-    String pelaje;
+    private String raza;
+    private String pelaje;
 
     /*CONSTRUCTORES*/
     public Perro() {

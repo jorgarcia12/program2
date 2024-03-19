@@ -2,9 +2,9 @@ package Herencia_2;
 
 
 public class Animal {
-    String nombre;
-    int edad;
-    String genero;
+    private String nombre;
+    private int edad;
+    private String genero;
 
     /*CONSTRUCTORES*/
     public Animal() {
@@ -15,6 +15,7 @@ public class Animal {
         this.edad = edad;
         this.genero = genero;
     }
+
     /*GETTER Y SETTER*/
     public String getNombre() {
         return nombre;
@@ -39,6 +40,7 @@ public class Animal {
     public void setGenero(String genero) {
         this.genero = genero;
     }
+
     /*METODOS*/
     public String hacerSonido() {
         return "El animal hace un sonido generico";
@@ -46,7 +48,7 @@ public class Animal {
 
     public void informacion() {
         System.out.println("Nombre: " + getNombre() +
-                ", Edad: " + getEdad() +" años "+
+                ", Edad: " + getEdad() + " años " +
                 ", Genero: " + getGenero());
     }
 }

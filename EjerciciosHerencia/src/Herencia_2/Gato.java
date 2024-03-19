@@ -1,8 +1,8 @@
 package Herencia_2;
 
 public class Gato extends Animal {
-    String color_pelaje;
-    String personalidad;
+    private String color_pelaje;
+    private String personalidad;
     /*CONSTRUCTORES*/
     public Gato() {
 
