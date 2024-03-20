@@ -34,12 +34,12 @@ public class Gato extends Animal {
         System.out.println("El gato esta afilando sus uñas con el sillon :/");
     }
     @Override
-    public String hacerSonido() {
-        return super.hacerSonido() + "MIAU MIAU";
+    public void hacerSonido() {
+        System.out.println("MIAU MIAU");;
     }
     public void informacion() {
         super.informacion();
-        System.out.println(", Color del Pelaje: "+getColor_pelaje() +
-                "Personalidad: "+getPersonalidad());
+        System.out.println("Color del Pelaje: "+getColor_pelaje() +
+                " Personalidad: "+getPersonalidad());
     }
 }

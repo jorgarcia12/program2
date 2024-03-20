@@ -42,8 +42,8 @@ public class Animal {
     }
 
     /*METODOS*/
-    public String hacerSonido() {
-        return "El animal hace un sonido generico";
+    public void hacerSonido() {
+        System.out.println("El animal hace un sonido generico");
     }
 
     public void informacion() {

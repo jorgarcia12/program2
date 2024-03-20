@@ -34,12 +34,12 @@ public class Perro extends Animal {
         System.out.println("El perro esta persiguiendo su cola!");
     }
     @Override
-    public String hacerSonido() {
-        return super.hacerSonido() + " GUAU GUAU";
+    public void hacerSonido() {
+        System.out.println("GUAU GUAU");
     }
     public void informacion() {
         super.informacion();
-        System.out.println(", Raza: "+getRaza() +
-                "Pelaje: "+getPelaje());
+        System.out.println("Raza: "+getRaza() +
+                " Pelaje: "+getPelaje());
     }
 }

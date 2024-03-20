@@ -35,12 +35,12 @@ public class Pajaro extends Animal {
         System.out.println("El pajaro esta volando");
     }
     @Override
-    public String hacerSonido() {
-        return super.hacerSonido() + "PIO PIO";
+    public void hacerSonido() {
+        System.out.println("PIO PIO");
     }
     public void informacion() {
         super.informacion();
-        System.out.println(", Especie: "+getEspecie() +
-                "Tamaño: "+getTamanio());
+        System.out.println("Especie: "+getEspecie() +
+                " Tamaño: "+getTamanio());
     }
 }
